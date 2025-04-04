@@ -211,3 +211,6 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git remote set-url origin https://github.com/KondaSamyam/Freecodecamprelationaldatabase.git
 git branch -M main
 git push -u origin main
+psql -U postgres < universe.sql
+\d
+psql --username=freecodecamp --dbname=postgres
